@@ -11,7 +11,7 @@ DockerHub](https://hub.docker.com/r/pdf2htmlex/pdf2htmlex/tags)
 with the supplied arguments as is.
 
 ```yml
-- uses: SichangHe/pdf2htmlEX-action@v0.0
+- uses: SichangHe/pdf2htmlEX-action@v0.0.1
   with:
     arguments: input.pdf output.html
 ```

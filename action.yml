@@ -73,8 +73,7 @@ runs:
   using: composite
   steps:
     - shell: bash
-      run: |
-        "${GITHUB_ACTION_PATH}/action.sh"
+      run: "${GITHUB_ACTION_PATH}/action.sh"
       env:
         ARGS: ${{ inputs.arguments }}
 
